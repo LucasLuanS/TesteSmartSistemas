@@ -16,6 +16,7 @@
                   <th scope="col"> <label>ID</label> </th>
                   <th scope="col"> <label>Nome</label> </th>
                   <th scope="col"> <label>Nivel</label> </th>
+                  <th scope="col"> <label>Data de Criação</label> </th>
                 </tr>
               </thead>
               <tbody id="table">
@@ -39,6 +40,10 @@
               <tr>
                 <th scope="row"> <label>Nivel: </label> </th>
                 <td>{{nivelUsuario}}</td>
+              </tr>
+              <tr>
+                <th scope="row"> <label>Data de Criação: </label> </th>
+                <td>{{dataCriacao}}</td>
               </tr>
             </table>
           </div>

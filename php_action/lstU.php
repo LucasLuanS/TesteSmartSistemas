@@ -9,7 +9,8 @@
         echo("<tr>
             <td scope='row'>" . $fetch[0] . "</td>
             <td scope='row'>" . $fetch[1] . "</td>
-            <td scope='row'>" . $fetch[4] . "</td>
+            <td scope='row'>" . $fetch[5] . "</td>
+            <td scope='row'>" . $fetch[3] . "</td>
         </tr>");
     }
     $conn->close();

@@ -68,7 +68,8 @@
             idSelecionado: -1,
             nomeDesc: '',
             op: 0,
-            nivelUsuario: ''
+            nivelUsuario: '',
+            dataCriacao: ''
           },
           mounted: function(){
             var _this = this
@@ -81,6 +82,8 @@
               _this.nomeDesc = value;
               var value=$(this).find('td:nth-child(3)').html();
               _this.nivelUsuario = value;
+              var value=$(this).find('td:nth-child(4)').html();
+              _this.dataCriacao = value;
             });
           }
         });
